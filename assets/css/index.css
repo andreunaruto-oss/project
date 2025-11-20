@@ -1,0 +1,28 @@
+.juegos {
+    margin-top: 40px;
+}
+
+.juegos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.juego-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.juego-card img {
+    width: 100%;
+    max-width: 180px;
+    height: 240px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: #ccc;
+}
